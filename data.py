@@ -9,5 +9,5 @@ prices = {
 recipes = {
   "simple salad": ["tomato", "cucumber"],
   "simple garnish": ["potato", "milk"],
-  "main course": ["meat", "potato", "milk"]
+  "main course": ["meat", "potato"]
 }
