@@ -6,9 +6,8 @@ class Preferences:
         self.hated_products = []
         self.favourite_products = []
 
-    def change_preferences(self):
-        hated_products = input("What are the products do you hate the most? 🤢").split(", ")
-        self.hated_products.extend(hated_products)
+    def change_preferences(self, hated_products):
+        self.hated_products.extend(hated_products.split(", "))
 
     def find_tasty_recipes(self):
         recipes_available = []
